@@ -1,0 +1,41 @@
+name: roadsense_app
+description: RoadSense AI - Civic road-hazard reporting app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.4.0
+  flutter_map: ^6.1.0
+  image_picker: ^1.0.7
+  flutter_image_compress: ^2.1.0
+  geolocator: ^14.0.3
+  go_router: ^13.2.0
+  flutter_riverpod: ^2.5.1
+  onesignal_flutter: ^5.1.0
+  flutter_dotenv: ^5.1.0
+  latlong2: ^0.9.0
+  uuid: ^4.3.3
+  google_fonts: ^8.2.1
+  phosphor_icons: ^3.0.1
+  path: ^1.9.1
+  timeago: ^3.7.1
+  fl_chart: ^1.2.0
+  http: ^1.2.0
+  shared_preferences: ^2.5.5
+  exif: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
